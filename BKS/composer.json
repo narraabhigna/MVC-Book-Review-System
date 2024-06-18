@@ -1,0 +1,15 @@
+{
+  "name": "ravij/bks",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "Controllers\\": "src/Controllers/",
+      "Models\\": "src/Models/"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "twig/twig": "^3.10"
+  }
+}
